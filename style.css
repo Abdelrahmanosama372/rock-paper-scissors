@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(37, 36, 36);
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+.heading-text {
+    color: #FAC036;
+    font-size: 60px;
+    font-family: Arial;
+    padding-top: 1px;
+    margin-left: 85px;
+    
+}
+
+.emoji {
+    height: 130px;
+    
+}
+
+.emoji-button {
+    background-color: transparent;
+    border: 3px white solid;
+    padding: 30px 30px;
+    border-radius: 100px;
+    margin: 20px 20px;
+    cursor: pointer;
+}
+
+.emoji-button:hover {
+    opacity: 0.7;
+}
+
+
+.result {
+    color: white;
+    font-size: 35px;
+    font-family: Arial;
+    margin-left: 330px;
+}
+
+.display-moves {
+    width: 80px;
+}
+
+.moves {
+    font-size: 20px;
+    font-family: Arial;
+    color: white;
+    margin-bottom: 60px;
+    margin-left: 215px;
+}
+
+
+.score {
+    font-size: 25px;
+    font-family: Arial;
+    color: white;
+    margin-left: 195px;
+}
+
+.reset-button {
+    background-color: #FAC036;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 205px;
+    cursor: pointer;
+}
+
+.reset-button:hover{
+    opacity: 0.7;
+}
+
+.autoplay-botton {
+    background-color: #FAC036;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.autoplay-botton:hover{
+    opacity: 0.7;
+}
